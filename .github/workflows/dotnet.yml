@@ -25,5 +25,4 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: nginx start
-      run: sudo systemctl restart admin-api.service
+
